@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>camouflaged_home</title>
+        <link rel="stylesheet" href="camo.css">
+        <style>
+            body{
+                background-color: #4066ad;
+            }
+
+            #camobj{
+                background-color: #4066ad;
+            }
+            #camobj button{
+                background-color: white;
+                color: black;
+            }
+            .navbar a:hover{
+                background-color: white;
+                color: #4066ad;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href=#><img id="logo" src="01 artwork/STDK Logo_.png"></a>
+            <a href="camohome.html">ABOUT</a>
+            <a href="page1_blue.html">BLUE</a>
+            <a href="page1_white.html">WHITE</a>
+            <a href="page3_red.html">RED</a>
+            <a href="page2_pink.html">P!NK</a>
+            <a href="page4_green.html" style="text-decoration: line-through;">QUIZ</a>
+        </div>
+
+        <div id="camobj">
+            <img id="myImg" src="01 artwork/blueobj_RV.png">
+            <button id="myButton">UNDER THE SEA...</button>
+        </div>
+
+        <div class="article">
+            <div id="left">
+                <h3>[Blue: Plastic Ocean]</h3>
+            </div>
+            <div id="right">
+                <p>It is obvious the plastic bags and utensils are causing environmental impact.<br>
+                     However, we've are still using them for convenience.<br>
+                </p>
+                <div class="banner"><a href="page4_green.html">
+                    <h1 id="bannert">QUIZ</h1>
+                    <p id="bannerp">A story<br>about greenwashing</p>
+                </a></div>
+            </div>
+        </div>
+
+        <div class="web-title2" style="background-color: whitesmoke; color:black;"><a href="page1_white.html" style="color:black;">
+            <h1 id="webt">NEXT THEME:<br>PLASTIC RECYCLING?</h1>
+            <p id="webp">The truth<br>of plastic recycling</p>
+        </a></div>
+
+        <div class="footer">
+            <div class="fcl"><a href=#><img id="logo" src="01 artwork/STDK Logo_W.png"></a>
+                <br>Designed by STDK</div>
+            <div class="fcmid"><a href=camohome.html>ABOUT</a><br><a href=page1_blue.html>BLUE</a><br><a href=page4_green.html>QUIZ</a></div>
+            <div class="fcr"><a href="#">TOP</a></div>
+        </div>
+
+        <script>
+            const myImg = document.getElementById("myImg");
+            const myButton = document.getElementById("myButton");
+            myButton.addEventListener("click", function() {
+                document.getElementById("camobj").style.backgroundColor = "white";
+                myImg.src="01 artwork/blueobj_RV.png"
+            });
+        </script>
+    </body>
+</html>

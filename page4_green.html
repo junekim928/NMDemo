@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!--<link rel= "stylesheet" href="styles.css">!-->
+    <link rel="stylesheet" href="camo.css">
+    <style>
+
+        #camobj{
+            background-color: #38551d;
+        }
+        #camobj button{
+            background-color: gold;
+            color: white;
+        }
+        .navbar a:hover{
+            background-color: gold;
+            color: #38551d;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href=#><img id="logo" src="01 artwork/STDK Logo_.png"></a>
+        <a href="camohome.html">ABOUT</a>
+        <a href="page1_blue.html">BLUE</a>
+        <a href="page1_white.html">WHITE</a>
+        <a href="page3_red.html">RED</a>
+        <a href="page2_pink.html">P!NK</a>
+        <a href="page4_green.html" style="text-decoration: line-through;">GREEN</a>
+    </div>
+    <br>
+
+    <div class="container">
+        <div id="title-container">
+            <h1>Quiz</h1>
+            <p>Do you know about the keyword.<br></p>
+        </div>
+        <br>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="score">score:</div>
+            <br>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="refresh-btn" class="refresh-btn btn hide">Try Again</button>
+        </div>
+    </div>
+
+    <script defer src="script.js"></script>
+
+    <div class="article">
+        <div id="left">
+            <h3>[Art Project: Camouflaged]</h3>
+        </div>
+        <div id="right">
+            <p>Packaging waste is 'the elephant in the room'.
+                    It is obvious packaging waste and unnecessary supplements are causing environmental impact.<br>
+                   However, we've become so used to it that we tend to overlook such waste.<br><br>
+            </p>
+            <div class="banner">
+                <h1 id="bannert">QUIZ</h1>
+                <p id="bannerp">A story<br>about greenwashing</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="fcl"><a href=#><img id="logo" src="01 artwork/STDK Logo_W.png"></a>
+            <br>Designed by STDK</div>
+        <div class="fcmid"><a href=camohome.html>ABOUT</a><br><a href=page1_blue.html>BLUE</a><br><a href=page4_green.html>QUIZ</a></div>
+        <div class="fcr"><a href="#">TOP</a></div>
+    </div>
+    
+</body>
+</html>

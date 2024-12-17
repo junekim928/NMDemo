@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>camouflaged_home</title>
+        <link rel="stylesheet" href="camo.css">
+        <style>
+            body{
+                background-color: #ff4800;
+            }
+
+            #camobj{
+                background-color: #ff4800;
+            }
+            #camobj button{
+                background-color: #38551d;
+                color: white;
+            }
+            .navbar a:hover{
+                background-color: #38551d;
+                color: #ff4800;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href=#><img id="logo" src="01 artwork/STDK Logo_.png"></a>
+            <a href="camohome.html">ABOUT</a>
+            <a href="page1_blue.html">BLUE</a>
+            <a href="page1_white.html">WHITE</a>
+            <a href="page3_red.html">RED</a>
+            <a href="page2_pink.html">P!NK</a>
+            <a href="page4_green.html" style="text-decoration: line-through;">QUIZ</a>
+          </div>
+        <div id="camobj">
+            <img id="myImg" src="01 artwork/redobj_RV.png">
+            <button id="myButton">I SEE...</button>
+        </div>
+
+        <div class="article">
+            <div id="left">
+                <h3>[Red: CDs]</h3>
+            </div>
+            <div id="right">
+                <p>The emergence of online music streaming services means that there is no real need for a CD.<br>
+                    However, the K-pop industry uses CD albums sales numbers to determine attendees of fan meetings and music broadcast awards.<br>
+                    This forces fans to buy lots of music albums, of which much is discarded afterwards.
+                </p>
+                <div class="banner"><a href="page4_green.html">
+                    <h1 id="bannert">QUIZ</h1>
+                    <p id="bannerp">A story<br>about greenwashing</p>
+                </a></div>
+            </div>
+        </div>
+
+        <div class="web-title2" style="background-color: #f2d4f2; color:black;"><a href="page2_pink.html" style="color:black;">
+            <h1 id="webt">NEXT THEME:<br>PACKING PEANUTS ARE BANNED</h1>
+            <p id="webp">The truth<br>of plastic recycling</p>
+        </a></div>
+
+
+        <div class="footer">
+            <div class="fcl"><a href=#><img id="logo" src="01 artwork/STDK Logo_W.png"></a>
+                <br>Designed by STDK</div>
+            <div class="fcmid"><a href=camohome.html>ABOUT</a><br><a href=page1_blue.html>BLUE</a><br><a href=page4_green.html>QUIZ</a></div>
+            <div class="fcr"><a href="#">TOP</a></div>
+        </div>
+
+        <script>
+            const myImg = document.getElementById("myImg");
+            const myButton = document.getElementById("myButton");
+            myButton.addEventListener("click", function() {
+                document.getElementById("camobj").style.backgroundColor = "#38551d";
+                myImg.src="01 artwork/redobj_RV2.png"
+            });
+        </script>
+    </body>
+</html>

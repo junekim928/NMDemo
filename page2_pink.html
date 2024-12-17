@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>camouflaged_home</title>
+        <link rel="stylesheet" href="camo.css">
+        <style>
+            body{
+                background-color: #f2d4f2;
+            }
+
+            #camobj{
+                background-color: #f2d4f2;
+            }
+            #camobj button{
+                background-color: #38551d;
+                color: white;
+            }
+            .navbar a:hover{
+                background-color: #38551d;
+                color: #f2d4f2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href=#><img id="logo" src="01 artwork/STDK Logo_.png"></a>
+            <a href="camohome.html">ABOUT</a>
+            <a href="page1_blue.html">BLUE</a>
+            <a href="page1_white.html">WHITE</a>
+            <a href="page3_red.html">RED</a>
+            <a href="page2_pink.html">P!NK</a>
+            <a href="page4_green.html" style="text-decoration: line-through;">QUIZ</a>
+          </div>
+        <div id="camobj">
+            <img id="myImg" src="01 artwork/pinkobj_RV.png">
+            <button id="myButton">I SEE...</button>
+        </div>
+
+        <div class="article">
+            <div id="left">
+                <h3>[Pink: Packing Peanuts]</h3>
+            </div>
+            <div id="right">
+                <p>Packing Peanuts are used to fill the empty space of a delivery box and prevent products from moving.
+                    However, they create waste: not just when they are thrown away, but also when the packaging materials are produced.
+                    <br><br>
+                    Packing Peanuts are used to fill the empty space of a delivery box and prevent products from moving.<br>
+                    However, they create waste: not just when they are thrown away, but also when the packaging materials are produced.
+                    <br><br>
+                    Packing Peanuts are used to fill the empty space of a delivery box and prevent products from moving.<br>
+                    However, they create waste: not just when they are thrown away, but also when the packaging materials are produced.
+                </p>
+                <div class="banner"><a href="page4_green.html">
+                    <h1 id="bannert">QUIZ</h1>
+                    <p id="bannerp">A story<br>about greenwashing</p>
+                </a></div>
+            </div>
+        </div>
+
+        <div class="web-title2" style="background-color: #f5d93e; color:black;"><a href="page2_pink.html" style="color:black;">
+            <h1 id="webt">ABOUT:<br>CAMOUFLAGED</h1>
+            <p id="webp">A story<br>about greenwashing</p>
+        </a></div>
+
+        <div class="footer">
+            <div class="fcl"><a href=#><img id="logo" src="01 artwork/STDK Logo_W.png"></a>
+                <br>Designed by STDK</div>
+            <div class="fcmid"><a href=camohome.html>ABOUT</a><br><a href=page1_blue.html>BLUE</a><br><a href=page4_green.html>QUIZ</a></div>
+            <div class="fcr"><a href="#">TOP</a></div>
+        </div>
+
+        <script>
+            const myImg = document.getElementById("myImg");
+            const myButton = document.getElementById("myButton");
+            myButton.addEventListener("click", function() {
+                document.getElementById("camobj").style.backgroundColor = "#38551d";
+                myImg.src="01 artwork/pinkobj_RV2.png"
+            });
+        </script>
+    </body>
+</html>
